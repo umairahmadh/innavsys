@@ -1,0 +1,36 @@
+html,body{
+    background-color:blanchedalmond;
+    font-family: serif;
+    font-size:20px;
+}
+
+
+#homepage{
+    font-family:cursive;
+    font-size: 20px;
+    color:brown;
+    font-family:serif;
+    text-align: center; 
+}
+
+h2{
+    font-family:cursive;
+    font-size: 40px;
+    color:black;
+    text-shadow:10px 10px 1px violet;
+    font-family:"Monotype Corsiva";
+    text-align: center;
+}
+
+table,th,td{
+    border: 3px solid brown;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+}
+
+th{
+    background-color: brown;
+    font-size: 25px;
+}
+

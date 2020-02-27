@@ -1,0 +1,85 @@
+h1{
+color:Indigo;
+text-shadow:10px 10px 2px violet;
+font-family:"Monotype Corsiva";
+letter-spacing:normal;
+}
+
+p{
+padding:5px;
+border:5px solid black;
+font-size:medium;
+font-style:normal;
+font-weight:700;
+font-variant:normal;
+color:Indigo;
+background-color:violet;
+display:table-cell; //block,inline,table,grid
+visibility:visible; //hidden
+}
+
+p.para{
+text-indent:50px;
+text-transform:none;
+}
+
+body{
+background-repeat:no-repeat; //repeat-x,repeat-y
+background-attachment:scroll;
+font-family:cursive;
+}
+
+ul{
+list-style:square outside url("F:/HTML/icon-skype.png"); //type,position,image
+}
+
+h1{
+width:140px;
+height:50px;
+overflow:visible;
+background-color:blue;
+border:2px solid blue;
+border-radius:20px;
+box-shadow:inset 10px 10px 10px 10px violet;
+}
+
+
+tr{
+background-color:violet;
+text-align:center;
+}
+
+
+table{
+border-collapse:seperate;
+border:5px ridge blue;
+border-spacing:10px;
+border-radius:24px 0 0 0;
+empty-cells:show; //hide
+}
+
+caption{
+caption-side:top;
+}
+
+
+img{
+float:left;
+margin-right:30px;
+width:50px;
+height:50px;
+}
+
+#overflow{
+width:200px;
+height:200px;
+overflow:auto;//auto,scroll,hidden,visible
+}
+
+#circle{
+width:100px;
+height:100px;
+background-color:violet;
+border-radius:50px;
+box-shadow:10px 10px 0px 10px #6666ff;
+}

@@ -1,0 +1,72 @@
+body{
+    background-image: url('bg4.jpg');
+    background-position: right top,left top;
+    background-repeat:no-repeat;
+    background-size:cover;}
+
+#first{
+    font-family:cursive;
+    color:antiquewhite;
+    font-family:"Monotype Corsiva";
+    text-align: center;
+    padding:10px;
+    border-radius:20px;
+    color:antiquewhite;
+    font-size:40px;
+    background:-ms-linear-gradient(20deg,violet,indigo,DeepSkyBlue,green,yellow,orange,red);
+    border:10px solid rgba(255,255,255,0.2);
+    box-shadow:0 0 25px rgba(0,0,0,0.1),
+        inset 0 0 1px rgba(255,255,255,0.6);
+    background-clip:padding-box;
+    opacity:1.0;
+}
+
+nav{
+    padding:50px 0;
+    min-width:500px;
+}
+
+#transparent{
+    background:linear-gradient(90deg,
+        rgba(255,255,255,0)0%,
+        rgba(255,255,255,0.2)25%,
+        rgba(255,255,255,0.2)75%,
+        rgba(255,255,255,0)100%);
+    box-shadow:0 0 25px rgba(0,0,0,0.1),
+        inset 0 0 1px rgba(255,255,255,0.6);
+    padding:20px;
+    color:antiquewhite;
+    font-size:18px;
+    font-family:Arial;
+    text-decoration:none;
+}
+
+nav ul{
+    background:linear-gradient(90deg,
+        rgba(255,255,255,0)0%,
+        rgba(255,255,255,0.2)25%,
+        rgba(255,255,255,0.2)75%,
+        rgba(255,255,255,0)100%);
+    box-shadow:0 0 25px rgba(0,0,0,0.1),
+        inset 0 0 1px rgba(255,255,255,0.6);
+}
+
+nav ul li{
+    display:inline;
+}
+
+nav ul li a{
+    padding:20px;
+    color:antiquewhite;
+    font-size:18px;
+    font-family:Arial;
+    text-decoration:none;
+    display:inline;
+}
+
+.feature-gallery {
+    left: 500px;
+    margin: 5px 0;
+    overflow:auto;
+    position:relative;
+}

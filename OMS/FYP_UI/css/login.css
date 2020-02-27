@@ -1,0 +1,116 @@
+/* Made with love by Mutiullah Samim*/
+
+html,body{
+background-image: url("bg4.jpg");
+background-size: cover;
+background-color: blanchedalmond;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: 150px;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: royalblue;
+}
+
+.social_icon span:hover{
+color: blanchedalmond;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: royalblue;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: royalblue;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: blanchedalmond;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+nav{
+    padding:50px 0;
+    min-width:500px;
+}
+
+nav ul{
+    background:linear-gradient(90deg,
+        rgba(255,255,255,0)0%,
+        rgba(255,255,255,0.2)25%,
+        rgba(255,255,255,0.2)75%,
+        rgba(255,255,255,0)100%);
+    box-shadow:0 0 25px rgba(0,0,0,0.1),
+        inset 0 0 1px rgba(255,255,255,0.6);
+}
+
+nav ul li{
+    display:inline;//block
+}
+
+nav ul li a{
+    padding:20px;
+    color:antiquewhite;
+    font-size:18px;
+    font-family:Arial;
+    text-decoration:none;
+    display:inline;
+}

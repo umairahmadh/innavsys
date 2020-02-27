@@ -1,0 +1,104 @@
+img.icon {
+    width: 200px;
+    height: auto;
+}
+.feature-gallery {
+    left: 50px;
+    margin: 5px 0;
+    overflow:auto;
+    position:relative;
+}
+.feature-gallery img.thumb {
+     width: 200px;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+.feature-gallery:hover img.thumb {
+    opacity: 1;
+    transition: all 0.35s;
+    -moz-transform: scale(1.13);
+    -webkit-transform: scale(1.13);
+    -ms-transform: scale(1.13);
+    transform: scale(1.13);
+}
+.fg-overlay { 
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all.3s;
+    width: 80%;
+    height: 100%;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+.feature-gallery:hover .fg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.fg-overlay h2 {
+    font-size: 30px;
+    line-height: 22px;
+    color: #fff;
+    opacity: 0;
+    margin-bottom: 0px;
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    transition: all .35s;
+}
+.fg-overlay p {
+    font-size: 20px;
+    color: #fff;
+    opacity: 0;
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    transition: all .35s;
+}
+.feature-gallery:hover .fg-overlay h2,
+.feature-gallery:hover .fg-overlay p{
+    opacity: 1;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.fg-overlay:before {
+    opacity: 0;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top:15px;
+    left:15px;
+    bottom:15px;
+    right:15px;
+    z-index: 10;
+    content: "";
+    display:flow-root;
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    transition: all .35s;
+}
+.feature-gallery:hover .fg-overlay:before {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
